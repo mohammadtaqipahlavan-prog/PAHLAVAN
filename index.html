@@ -1,0 +1,1766 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#211811">
+
+  <title>Pahlavan | Iranian Dates & Agricultural Products</title>
+  <meta name="description" content="Discover Iranian dates from Bam, Kerman, Iran. Contact Pahlavan directly on WhatsApp for product inquiries, sourcing and trade cooperation.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f4ed;
+      --paper: #fffdf8;
+      --ink: #211811;
+      --brown: #493021;
+      --brown-light: #72523a;
+      --gold: #bd9253;
+      --gold-light: #e4c99a;
+      --muted: #756d62;
+      --line: #e5ddd0;
+      --green: #47644a;
+      --white: #fff;
+      --serif: "Playfair Display", Georgia, serif;
+      --sans: "DM Sans", Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(1180px, 90%);
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 105px 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--brown-light);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 25px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    h1, h2, h3 {
+      font-weight: 500;
+    }
+
+    h2 {
+      font-family: var(--serif);
+      font-size: clamp(34px, 4.3vw, 55px);
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+    }
+
+    .section-intro {
+      max-width: 650px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin-bottom: 48px;
+    }
+
+    .section-heading h2 {
+      margin-top: 18px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 13px 22px;
+      border: 1px solid transparent;
+      font-size: 13px;
+      font-weight: 700;
+      transition: .25s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-dark {
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    .btn-dark:hover {
+      background: var(--brown);
+    }
+
+    .btn-light {
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .btn-outline {
+      border-color: rgba(255,255,255,.5);
+      color: var(--white);
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255,255,255,.1);
+    }
+
+    /* Announcement */
+
+    .announcement {
+      padding: 9px 15px;
+      background: var(--ink);
+      color: #e9dcc8;
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: 1.1px;
+    }
+
+    .announcement span {
+      color: var(--gold-light);
+    }
+
+    /* Header */
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(247,244,237,.96);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 82px;
+      gap: 25px;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+      flex-shrink: 0;
+    }
+
+    .logo strong {
+      font-family: var(--serif);
+      font-size: 27px;
+      letter-spacing: 1px;
+    }
+
+    .logo small {
+      margin-top: 5px;
+      font-size: 9px;
+      letter-spacing: 2.4px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      list-style: none;
+      font-size: 12px;
+      color: #4c443a;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-actions .btn {
+      min-height: 43px;
+      padding: 10px 16px;
+      font-size: 11px;
+    }
+
+    .menu-toggle {
+      display: none;
+      border: 1px solid var(--line);
+      background: transparent;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      min-height: 650px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: #302117;
+      color: var(--white);
+    }
+
+    .hero-image {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(24,17,12,.94) 0%, rgba(24,17,12,.82) 43%, rgba(24,17,12,.24) 100%);
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding: 95px 0;
+    }
+
+    .hero-content {
+      max-width: 660px;
+    }
+
+    .hero .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .hero h1 {
+      margin-top: 28px;
+      font-family: var(--serif);
+      font-size: clamp(52px, 7vw, 87px);
+      line-height: 1.04;
+      letter-spacing: -2px;
+    }
+
+    .hero h1 em {
+      display: block;
+      color: var(--gold-light);
+      font-style: normal;
+    }
+
+    .hero-description {
+      max-width: 520px;
+      margin-top: 25px;
+      color: #e3d8ca;
+      font-size: 15px;
+      line-height: 1.95;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .hero-location {
+      margin-top: 42px;
+      padding-top: 19px;
+      border-top: 1px solid rgba(255,255,255,.22);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      color: #e6d8c7;
+      font-size: 11px;
+      letter-spacing: .4px;
+    }
+
+    .hero-location span::before {
+      content: "•";
+      color: var(--gold-light);
+      margin-right: 8px;
+    }
+
+    /* Trust strip */
+
+    .trust-strip {
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      padding: 28px 24px;
+      border-right: 1px solid var(--line);
+    }
+
+    .trust-item:first-child {
+      border-right: 0;
+    }
+
+    .trust-symbol {
+      color: var(--gold);
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .trust-item strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+
+    .trust-item p {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    /* About */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 85px;
+      align-items: center;
+    }
+
+    .about-visual {
+      position: relative;
+      min-height: 500px;
+    }
+
+    .about-visual img {
+      position: absolute;
+      inset: 0 0 35px 35px;
+      width: calc(100% - 35px);
+      height: calc(100% - 35px);
+      background: #e5d9c7;
+    }
+
+    .image-caption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 225px;
+      padding: 23px;
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    .image-caption strong {
+      display: block;
+      color: var(--gold-light);
+      font-family: var(--serif);
+      font-size: 24px;
+    }
+
+    .image-caption span {
+      display: block;
+      margin-top: 6px;
+      color: #d6c9b8;
+      font-size: 10px;
+      line-height: 1.7;
+    }
+
+    .about-copy h2 {
+      margin-top: 19px;
+    }
+
+    .about-copy > p {
+      margin-top: 21px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .about-points {
+      margin: 26px 0 30px;
+      list-style: none;
+    }
+
+    .about-points li {
+      padding: 11px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: 13px;
+    }
+
+    .about-points li::before {
+      content: "↗";
+      color: var(--gold);
+      margin-right: 12px;
+    }
+
+    /* Product range */
+
+    .products-section {
+      background: #eee8dc;
+    }
+
+    .products-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 30px;
+    }
+
+    .products-top .section-heading {
+      margin-bottom: 43px;
+    }
+
+    .products-top .section-intro {
+      max-width: 570px;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .product-card {
+      background: var(--paper);
+      border: 1px solid #e1d7c8;
+      transition: transform .3s, box-shadow .3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(40,27,17,.08);
+    }
+
+    .product-image-wrap {
+      position: relative;
+      overflow: hidden;
+      background: #dfd1bd;
+    }
+
+    .product-image {
+      height: 260px;
+      transition: transform .5s;
+    }
+
+    .product-card:hover .product-image {
+      transform: scale(1.035);
+    }
+
+    .product-number {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      background: var(--paper);
+      font-size: 11px;
+    }
+
+    .product-info {
+      padding: 23px;
+    }
+
+    .product-origin {
+      font-size: 10px;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1.3px;
+      font-weight: 700;
+    }
+
+    .product-info h3 {
+      margin-top: 8px;
+      font-family: var(--serif);
+      font-size: 25px;
+    }
+
+    .product-info p {
+      margin-top: 10px;
+      min-height: 68px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .product-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding-top: 16px;
+      margin-top: 18px;
+      border-top: 1px solid var(--line);
+      font-size: 11px;
+    }
+
+    .product-footer span {
+      color: var(--brown-light);
+    }
+
+    .product-footer a {
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .product-footer a:hover {
+      text-decoration: underline;
+    }
+
+    .product-note {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    /* Other agricultural products */
+
+    .agriculture-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-top: 40px;
+    }
+
+    .agriculture-card {
+      min-height: 215px;
+      padding: 25px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .agriculture-card .icon {
+      font-size: 27px;
+      color: var(--gold);
+    }
+
+    .agriculture-card h3 {
+      margin-top: 24px;
+      font-family: var(--serif);
+      font-size: 23px;
+    }
+
+    .agriculture-card p {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    /* Sourcing process */
+
+    .process-section {
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    .process-section .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .process-section h2 {
+      color: var(--white);
+    }
+
+    .process-section .section-intro {
+      color: #c6b8a8;
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      margin-top: 50px;
+      border-top: 1px solid rgba(255,255,255,.2);
+    }
+
+    .process-step {
+      padding: 28px 23px 0 20px;
+      border-right: 1px solid rgba(255,255,255,.2);
+    }
+
+    .process-step:first-child {
+      border-right: 0;
+    }
+
+    .process-step .number {
+      font-family: var(--serif);
+      color: var(--gold-light);
+      font-size: 35px;
+    }
+
+    .process-step h3 {
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    .process-step p {
+      margin-top: 10px;
+      color: #c6b8a8;
+      font-size: 12px;
+      line-height: 1.9;
+    }
+
+    /* Export */
+
+    .export-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .export-copy h2 {
+      margin-top: 20px;
+    }
+
+    .export-copy > p {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .export-visual {
+      min-height: 400px;
+      padding: 45px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      color: var(--white);
+      background:
+        linear-gradient(0deg, rgba(29,20,13,.9), rgba(29,20,13,.08)),
+        url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=85") center/cover;
+    }
+
+    .export-visual .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .export-visual h3 {
+      max-width: 450px;
+      margin-top: 15px;
+      font-family: var(--serif);
+      font-size: 37px;
+      line-height: 1.2;
+    }
+
+    .export-visual p {
+      margin-top: 14px;
+      max-width: 430px;
+      color: #e4d9ca;
+      font-size: 12px;
+    }
+
+    /* Contact */
+
+    .contact-section {
+      background: #eee8dc;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .contact-copy h2 {
+      margin-top: 20px;
+    }
+
+    .contact-copy > p {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .contact-list {
+      margin-top: 32px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 18px 0;
+      border-bottom: 1px solid #d9d0c2;
+    }
+
+    .contact-icon {
+      display: grid;
+      place-items: center;
+      width: 43px;
+      height: 43px;
+      flex-shrink: 0;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      font-size: 17px;
+    }
+
+    .contact-item small {
+      display: block;
+      color: var(--muted);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+    }
+
+    .contact-item strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 14px;
+    }
+
+    .contact-item a {
+      color: var(--green);
+    }
+
+    .contact-box {
+      padding: 35px;
+      background: var(--paper);
+      border: 1px solid #ded4c4;
+    }
+
+    .contact-box h3 {
+      font-family: var(--serif);
+      font-size: 30px;
+    }
+
+    .contact-box > p {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 25px;
+    }
+
+    .field {
+      margin-bottom: 16px;
+    }
+
+    .field.full {
+      grid-column: 1 / -1;
+    }
+
+    .field label {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      background: #fcfaf5;
+      border: 1px solid #e1d8ca;
+      border-radius: 0;
+      color: var(--ink);
+      outline: none;
+      font: inherit;
+      font-size: 12px;
+    }
+
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus {
+      border-color: var(--gold);
+    }
+
+    .field textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .contact-box .btn {
+      width: 100%;
+      border: 0;
+    }
+
+    .form-note {
+      margin-top: 13px;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    /* Footer */
+
+    .footer {
+      background: #19120d;
+      color: var(--white);
+      padding: 55px 0 25px;
+    }
+
+    .footer-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 35px;
+      padding-bottom: 40px;
+    }
+
+    .footer-brand strong {
+      font-family: var(--serif);
+      font-size: 33px;
+    }
+
+    .footer-brand p {
+      margin-top: 9px;
+      max-width: 360px;
+      color: #c6b8a8;
+      font-size: 12px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 11px;
+      color: #d7caba;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    .footer-bottom {
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,.14);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+      color: #b7a999;
+      font-size: 10px;
+    }
+
+    .footer-bottom a {
+      color: var(--gold-light);
+    }
+
+    /* Floating WhatsApp */
+
+    .whatsapp-float {
+      position: fixed;
+      z-index: 99;
+      right: 22px;
+      bottom: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 18px;
+      background: #276b45;
+      color: white;
+      box-shadow: 0 8px 25px rgba(0,0,0,.2);
+      font-size: 12px;
+      font-weight: 700;
+      transition: .25s;
+    }
+
+    .whatsapp-float:hover {
+      background: #1e5738;
+      transform: translateY(-3px);
+    }
+
+    .whatsapp-float svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* Responsive */
+
+    @media (max-width: 1000px) {
+      .nav-links {
+        gap: 14px;
+      }
+
+      .nav-actions .btn {
+        padding-inline: 12px;
+      }
+
+      .about-grid,
+      .export-grid,
+      .contact-grid {
+        gap: 40px;
+      }
+
+      .products-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .agriculture-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 760px) {
+      .section {
+        padding: 75px 0;
+      }
+
+      .nav {
+        min-height: 72px;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav-actions {
+        display: none;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        padding: 18px 5%;
+        background: var(--bg);
+        border-bottom: 1px solid var(--line);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        display: block;
+        padding: 12px 0;
+      }
+
+      .hero {
+        min-height: 620px;
+      }
+
+      .hero::after {
+        background: linear-gradient(90deg, rgba(24,17,12,.88), rgba(24,17,12,.5));
+      }
+
+      .hero h1 {
+        font-size: clamp(49px, 11vw, 75px);
+      }
+
+      .hero-description {
+        font-size: 13px;
+      }
+
+      .trust-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-item,
+      .trust-item:first-child {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .trust-item:last-child {
+        border-bottom: 0;
+      }
+
+      .about-grid,
+      .export-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-visual {
+        min-height: 390px;
+      }
+
+      .products-top {
+        display: block;
+      }
+
+      .products-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .product-image {
+        height: 270px;
+      }
+
+      .product-info p {
+        min-height: 0;
+      }
+
+      .process-grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+      }
+
+      .process-step,
+      .process-step:first-child {
+        border-right: 1px solid rgba(255,255,255,.2);
+        padding-right: 17px;
+      }
+
+      .process-step:nth-child(odd) {
+        border-right: 0;
+      }
+
+      .export-visual {
+        min-height: 350px;
+        padding: 28px;
+      }
+
+      .contact-box {
+        padding: 24px;
+      }
+
+      .footer-main {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .announcement {
+        font-size: 9px;
+      }
+
+      .logo strong {
+        font-size: 24px;
+      }
+
+      .hero {
+        min-height: 600px;
+      }
+
+      .hero-location {
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .agriculture-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .agriculture-card {
+        padding: 18px;
+        min-height: 200px;
+      }
+
+      .agriculture-card h3 {
+        font-size: 20px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .field.full {
+        grid-column: auto;
+      }
+
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .process-step,
+      .process-step:first-child,
+      .process-step:nth-child(odd) {
+        border-right: 0;
+        padding-right: 0;
+      }
+
+      .whatsapp-float {
+        right: 12px;
+        bottom: 12px;
+        padding: 12px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="announcement">
+    IRANIAN AGRICULTURAL PRODUCTS <span>·</span> BASED IN BAM, KERMAN, IRAN
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Pahlavan Home">
+        <strong>PAHLAVAN</strong>
+        <small>Iranian Dates & Produce</small>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-expanded="false" aria-controls="navLinks">
+        MENU ☰
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#dates">Dates</a></li>
+          <li><a href="#agriculture">Other Products</a></li>
+        
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-dark"
+          href="https://wa.me/989228357781"
+          target="_blank" rel="noopener noreferrer">
+          Contact on WhatsApp ↗
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <img
+        class="hero-image"
+        src="https://infinitynuts.org/wp-content/uploads/2024/12/Mazafati-Dates.opti_.webp"
+        alt="Premium Iranian dates"
+        fetchpriority="high">
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="eyebrow">A Taste of Southern Iran</span>
+
+          <h1>
+            Naturally Iranian.
+            <em>Distinctly Pahlavan.</em>
+          </h1>
+
+          <p class="hero-description">
+            From the date palm groves of Bam to the wider world,
+            we focus on Iranian dates and agricultural products
+            for buyers seeking clear communication, product knowledge
+            and dependable trade relationships.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#dates">
+              Explore Our Dates <span>↘</span>
+            </a>
+
+            <a class="btn btn-outline"
+              href="https://wa.me/989228357781"
+              target="_blank" rel="noopener noreferrer">
+              Discuss Your Requirements ↗
+            </a>
+          </div>
+
+          <div class="hero-location">
+            <span>Bam, Kerman, Iran</span>
+            <span>Iranian Date Varieties</span>
+            <span>Direct WhatsApp Contact</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST POINTS -->
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-symbol">01</div>
+          <div>
+            <strong>A Clear Point of Contact</strong>
+            <p>Speak directly with us about products and requirements.</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-symbol">02</div>
+          <div>
+            <strong>Product-Focused Approach</strong>
+            <p>Discuss variety, grade, packaging and intended use.</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-symbol">03</div>
+          <div>
+            <strong>Origin-Based Perspective</strong>
+            <p>Based in Bam, Kerman, in the heart of Iran's date-growing region.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STORY -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img
+            src="https://dingonuts.com/wp-content/uploads/2024/04/kabkab-date-min.jpeg"
+            alt="Iranian dates, close-up product view"
+            loading="lazy">
+
+          <div class="image-caption">
+            <strong>From Bam, Iran</strong>
+            <span>
+              A region closely associated with Iranian date cultivation
+              and the distinctive Mazafati date.
+            </span>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <span class="eyebrow">Who We Are</span>
+
+          <h2>Rooted in origin.<br>Focused on the product.</h2>
+
+          <p>
+            Pahlavan is an Iran-based agricultural trading brand
+            focused on dates and other agricultural products.
+            Our home base is Bam, Kerman, a region widely associated
+            with the cultivation of Mazafati dates.
+          </p>
+
+          <p>
+            We believe a good trade relationship starts with practical
+            details: knowing which product is required, understanding
+            the buyer's specifications and communicating clearly
+            before moving forward.
+          </p>
+
+          <ul class="about-points">
+            <li>Discussion of date varieties and product specifications</li>
+            <li>Product and packaging requirements considered case by case</li>
+            <li>Communication about destination and order quantities</li>
+            <li>Other agricultural products considered upon inquiry</li>
+          </ul>
+
+          <a class="btn btn-dark"
+            href="https://wa.me/989228357781"
+            target="_blank" rel="noopener noreferrer">
+            Start a Conversation ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATES -->
+    <section class="section products-section" id="dates">
+      <div class="container">
+        <div class="products-top">
+          <div class="section-heading">
+            <span class="eyebrow">Our Main Product Category</span>
+            <h2>Discover Iranian Dates</h2>
+            <p class="section-intro">
+              Different varieties offer different textures, sweetness,
+              appearance and storage characteristics. Tell us what your
+              market needs, and we can discuss the relevant product details.
+            </p>
+          </div>
+        </div>
+
+        <div class="products-grid">
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://infinitynuts.org/wp-content/uploads/2024/12/Mazafati-Dates.opti_.webp"
+                alt="Mazafati dates from Iran"
+                loading="lazy">
+              <span class="product-number">01</span>
+            </div>
+
+            <div class="product-info">
+              <span class="product-origin">Bam · Iran</span>
+              <h3>Mazafati Dates</h3>
+              <p>
+                Dark, soft and moist dates with a rich, sweet taste.
+                Mazafati is one of Iran's best-known date varieties
+                and is closely associated with the Bam region.
+              </p>
+              <div class="product-footer">
+                <span>Soft · Moist · Rich</span>
+                <a href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20am%20interested%20in%20Mazafati%20dates."
+                  target="_blank" rel="noopener noreferrer">Ask about this ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://taritrading.co/wp-content/uploads/2020/12/Piarom-Dates-Herb-Incorporation-Product-Image.jpg"
+                alt="Piarom dates from Iran"
+                loading="lazy">
+              <span class="product-number">02</span>
+            </div>
+
+            <div class="product-info">
+              <span class="product-origin">Southern Iran</span>
+              <h3>Piarom Dates</h3>
+              <p>
+                Elongated, dark dates with a relatively thin skin
+                and semi-dry texture. Often considered for premium
+                presentation and selected date assortments.
+              </p>
+              <div class="product-footer">
+                <span>Semi-Dry · Distinctive</span>
+                <a href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20am%20interested%20in%20Piarom%20dates."
+                  target="_blank" rel="noopener noreferrer">Ask about this ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://nutexco.com/wp-content/uploads/2022/10/date-zahedi.jpg"
+                alt="Zahedi dates from Iran"
+                loading="lazy">
+              <span class="product-number">03</span>
+            </div>
+
+            <div class="product-info">
+              <span class="product-origin">Iran</span>
+              <h3>Zahedi Dates</h3>
+              <p>
+                Golden to light-brown dates with a firmer texture
+                and a comparatively mild sweetness. A versatile option
+                for different food applications and markets.
+              </p>
+              <div class="product-footer">
+                <span>Firm · Mildly Sweet</span>
+                <a href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20am%20interested%20in%20Zahedi%20dates."
+                  target="_blank" rel="noopener noreferrer">Ask about this ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://dingonuts.com/wp-content/uploads/2024/04/kabkab-date-min.jpeg"
+                alt="Kabkab dates from Iran"
+                loading="lazy">
+              <span class="product-number">04</span>
+            </div>
+
+            <div class="product-info">
+              <span class="product-origin">Southern Iran</span>
+              <h3>Kabkab Dates</h3>
+              <p>
+                A soft, sweet variety associated with southern Iran.
+                Kabkab dates are known for their fleshy texture and
+                are used in a range of traditional food settings.
+              </p>
+              <div class="product-footer">
+                <span>Soft · Sweet</span>
+                <a href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20am%20interested%20in%20Kabkab%20dates."
+                  target="_blank" rel="noopener noreferrer">Ask about this ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="data:image/jpeg;base64,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"
+                alt="Rabbi dates from Iran"
+                loading="lazy">
+              <span class="product-number">05</span>
+            </div>
+
+            <div class="product-info">
+              <span class="product-origin">Southeastern Iran</span>
+              <h3>Rabbi Dates</h3>
+              <p>
+                An elongated, dark, semi-dry date associated with
+                southeastern Iran. Its appearance and texture make it
+                a variety worth considering for different market needs.
+              </p>
+              <div class="product-footer">
+                <span>Semi-Dry · Elongated</span>
+                <a href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20am%20interested%20in%20Rabbi%20dates."
+                  target="_blank" rel="noopener noreferrer">Ask about this ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4g6mI5iPUClgltrDn3IK8g-JPJzSME3LKJtcUBDAlA&s=10"
+                alt="Sayer or Estamaran dates from Iran"
+                loading="lazy">
+              <span class="product-number">06</span>
+            </div>
+
+            <div class="product-info">
+              <span class="product-origin">Khuzestan · Iran</span>
+              <h3>Sayer Dates</h3>
+              <p>
+                Also known as Estamaran, this commercially important
+                Iranian variety has a relatively firm texture and
+                is used in wholesale and food-processing markets.
+              </p>
+              <div class="product-footer">
+                <span>Commercial Variety</span>
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4g6mI5iPUClgltrDn3IK8g-JPJzSME3LKJtcUBDAlA&s=10"
+                  target="_blank" rel="noopener noreferrer">Ask about this ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="product-note">
+          Product images are illustrative. Actual appearance, grade,
+          origin, available quantities and packaging should be confirmed
+          directly before an order is placed.
+        </p>
+      </div>
+    </section>
+
+    <!-- OTHER PRODUCTS -->
+    <section class="section" id="agriculture">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Beyond Dates</span>
+          <h2>Other Agricultural Products</h2>
+          <p class="section-intro">
+            Iran produces a broad range of agricultural goods.
+            We welcome inquiries about other products and can discuss
+            sourcing requirements according to the specific order.
+            Availability is subject to confirmation.
+          </p>
+        </div>
+
+        <div class="agriculture-grid">
+          <article class="agriculture-card">
+            <div class="icon">✳</div>
+            <div>
+              <h3>Pistachios</h3>
+              <p>Discuss variety, grade, packaging and intended use.</p>
+            </div>
+          </article>
+
+          <article class="agriculture-card">
+            <div class="icon">✳</div>
+            <div>
+              <h3>Raisins</h3>
+              <p>Inquiries for dried grapes and related product specifications.</p>
+            </div>
+          </article>
+
+          <article class="agriculture-card">
+            <div class="icon">✳</div>
+            <div>
+              <h3>Saffron</h3>
+              <p>Product and sourcing inquiries subject to confirmation.</p>
+            </div>
+          </article>
+
+          <article class="agriculture-card">
+            <div class="icon">✳</div>
+            <div>
+              <h3>Other Produce</h3>
+              <p>Tell us which Iranian agricultural product you are looking for.</p>
+            </div>
+          </article>
+        </div>
+
+        <div style="margin-top:35px">
+          <a class="btn btn-dark"
+            href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20would%20like%20to%20ask%20about%20other%20Iranian%20agricultural%20products."
+            target="_blank" rel="noopener noreferrer">
+            Ask About Other Products ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- EXPORT -->
+    <section class="section" id="export">
+      <div class="container export-grid">
+        <div class="export-copy">
+          <span class="eyebrow">International Trade Inquiries</span>
+          <h2>Looking for an Iranian Agricultural Supplier?</h2>
+
+          <p>
+            Whether you are an importer, wholesaler, distributor,
+            retailer or food business, start by telling us about
+            your product requirements and target market.
+          </p>
+
+          <p>
+            We can discuss the product, proposed quantity, packaging
+            preferences and destination requirements. Any availability,
+            export arrangements, certifications and delivery terms must
+            be verified for the specific transaction.
+          </p>
+
+          <a class="btn btn-dark"
+            href="https://wa.me/989228357781?text=Hello%20Pahlavan%2C%20I%20am%20interested%20in%20discussing%20a%20trade%20inquiry."
+            target="_blank" rel="noopener noreferrer">
+            Send a Trade Inquiry ↗
+          </a>
+        </div>
+
+        <div class="export-visual">
+          <span class="eyebrow">Your Requirements Come First</span>
+          <h3>Good trade begins with a clear conversation.</h3>
+          <p>
+            Share your destination, product specifications and
+            approximate order quantity to begin the discussion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">Contact Pahlavan</span>
+          <h2>Let's Talk Business.</h2>
+
+          <p>
+            Have a question about Iranian dates or other agricultural
+            products? Contact us directly on WhatsApp to discuss
+            your requirements.
+          </p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <div class="contact-icon">⌖</div>
+              <div>
+                <small>Location</small>
+                <strong>Bam, Kerman, Iran</strong>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">↗</div>
+              <div>
+                <small>WhatsApp / Phone</small>
+                <strong>
+                  <a href="https://wa.me/989228357781"
+                    target="_blank" rel="noopener noreferrer">
+                    +98 922 835 7781
+                  </a>
+                </strong>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">◎</div>
+              <div>
+                <small>Business Inquiries</small>
+                <strong>Dates & Agricultural Products</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+
+            <button type="submit" class="btn btn-dark">
+              Continue on WhatsApp ↗
+            </button>
+
+            <p class="form-note">
+              Your message will open in WhatsApp for you to review.
+              It is not sent automatically.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <strong>PAHLAVAN</strong>
+          <p>
+            Iranian dates and agricultural products.
+            Based in Bam, Kerman, Iran.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">Our Story</a>
+          <a href="#dates">Dates</a>
+          <a href="#agriculture">Other Products</a>
+         
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Pahlavan. All rights reserved.</span>
+        <a href="https://wa.me/989228357781"
+          target="_blank" rel="noopener noreferrer">
+          Contact us on WhatsApp ↗
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="whatsapp-float"
+    href="https://wa.me/989228357781"
+    target="_blank" rel="noopener noreferrer"
+    aria-label="Contact Pahlavan on WhatsApp">
+
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.52 3.48A11.82 11.82 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.96L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.7 1.45h.01C18.65 23.8 24 18.46 24 11.9c0-3.17-1.24-6.15-3.48-8.42ZM12.09 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.74.98 1-3.64-.23-.37a9.86 9.86 0 0 1-1.52-5.28c0-5.47 4.45-9.92 9.92-9.92 2.65 0 5.14 1.03 7.01 2.91a9.85 9.85 0 0 1 2.9 7.01c0 5.47-4.45 9.9-9.93 9.9Zm5.44-7.42c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.47-2.4-1.49-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.27.5 1.7.64.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.69.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
+    </svg>
+
+    <span>Chat on WhatsApp</span>
+  </a>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+      const open = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(open));
+    });
+
+    document.querySelectorAll("#navLinks a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Current year
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    // Prepare the inquiry and open WhatsApp
+    document.getElementById("inquiryForm").addEventListener(
+      "submit",
+      function (event) {
+        event.preventDefault();
+
+        const form = new FormData(this);
+
+        const name = form.get("buyerName");
+        const company = form.get("companyName") || "Not provided";
+        const country = form.get("buyerCountry");
+        const product = form.get("buyerProduct");
+        const quantity = form.get("quantity") || "Not specified";
+        const message = form.get("buyerMessage");
+
+        const text = [
+          "Hello Pahlavan, I would like to make a product inquiry.",
+          "",
+          "Name: " + name,
+          "Company: " + company,
+          "Destination country: " + country,
+          "Product: " + product,
+          "Estimated quantity: " + quantity,
+          "",
+          "Requirements:",
+          message
+        ].join("\n");
+
+        const whatsappURL =
+          "https://wa.me/989228357781?text=" +
+          encodeURIComponent(text);
+
+        window.open(whatsappURL, "_blank", "noopener,noreferrer");
+      }
+    );
+  </script>
+
+</body>
+</html>
